@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>log in</title>
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: log_in;
+	}
+	#log_in * {
+		margin: 0;
+		padding: 0;
+	}
+	#log_in {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1280px;
+		height: 800px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: log in;
+		--web-view-id: log_in;
+		--web-enable-deep-linking: true;
+	}
+	#banner {
+		opacity: 1;
+		fill: url(#banner_A1_Rectangle_14_pattern);
+	}
+	.banner {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 271px;
+		left: 0px;
+		top: 14px;
+	}
+	#Recommendations {
+		opacity: 1;
+		position: absolute;
+		left: 488px;
+		top: 308px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 306px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(46,75,91,1);
+	}
+	#ID1 {
+		opacity: 1;
+		fill: url(#ID1_A1_Rectangle_16_pattern);
+	}
+	.ID1 {
+		position: absolute;
+		overflow: visible;
+		width: 311.522px;
+		height: 311.522px;
+		left: 87.872px;
+		top: 377.525px;
+	}
+	#ID2 {
+		opacity: 1;
+		fill: url(#ID2_A1_Rectangle_18_pattern);
+	}
+	.ID2 {
+		position: absolute;
+		overflow: visible;
+		width: 313.103px;
+		height: 312.708px;
+		left: 483.158px;
+		top: 377.525px;
+	}
+	#ID3 {
+		opacity: 1;
+		fill: url(#ID3_A1_Rectangle_20_pattern);
+	}
+	.ID3 {
+		position: absolute;
+		overflow: visible;
+		width: 313.103px;
+		height: 312.708px;
+		left: 880.025px;
+		top: 377.525px;
+	}
+	#KOST_MUSLIMAH_CERIA {
+		opacity: 1;
+		position: absolute;
+		left: 88px;
+		top: 697px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 172px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#KOST_PUTRA_H_ABDULLAH {
+		opacity: 1;
+		position: absolute;
+		left: 483px;
+		top: 697px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 192px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#KOST_EXECUTIVE_LIVE {
+		opacity: 1;
+		position: absolute;
+		left: 880px;
+		top: 697px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 155px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#Jl__Taman_Borobudur_Indah_18__ {
+		opacity: 1;
+		position: absolute;
+		left: 88px;
+		top: 717px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 201px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#Jl__Logam_No__37A_Kujangsari__ {
+		opacity: 1;
+		position: absolute;
+		left: 483px;
+		top: 717px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 300px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#Jl__Manyar_Jaya_Va_no__21___Ko {
+		opacity: 1;
+		position: absolute;
+		left: 880px;
+		top: 717px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#baseline_star_24px {
+		opacity: 1;
+		position: absolute;
+		width: 44.788px;
+		height: 44.788px;
+		left: 345px;
+		top: 386px;
+		overflow: visible;
+	}
+	#Path_12 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_12 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 44.788px;
+		height: 44.788px;
+	}
+	#Path_13 {
+		opacity: 1;
+		fill: rgba(216,90,75,1);
+	}
+	.Path_13 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 3.732px;
+		left: 3.732px;
+		width: 37.324px;
+		height: 35.458px;
+	}
+	#Path_14 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_14 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 44.788px;
+		height: 44.788px;
+	}
+	#baseline_star_border_24px {
+		opacity: 1;
+		position: absolute;
+		width: 44.773px;
+		height: 44.773px;
+		left: 751.314px;
+		top: 386.016px;
+		overflow: visible;
+	}
+	#Path_15 {
+		opacity: 1;
+		fill: rgba(216,90,75,1);
+	}
+	.Path_15 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 3.731px;
+		left: 3.731px;
+		width: 37.311px;
+		height: 35.445px;
+	}
+	#Path_16 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_16 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 44.773px;
+		height: 44.773px;
+	}
+	#baseline_star_border_24px_A1_Group_16 {
+		opacity: 1;
+		position: absolute;
+		width: 44.773px;
+		height: 44.773px;
+		left: 1139.314px;
+		top: 378.016px;
+		overflow: visible;
+	}
+	#Path_15_A1_Path_24 {
+		opacity: 1;
+		fill: rgba(216,90,75,1);
+	}
+	.Path_15_A1_Path_24 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 3.731px;
+		left: 3.731px;
+		width: 37.311px;
+		height: 35.445px;
+	}
+	#Path_16_A1_Path_25 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_16_A1_Path_25 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 44.773px;
+		height: 44.773px;
+	}
+	#Rectangle_6 {
+		opacity: 1;
+		fill: rgba(48,77,93,1);
+		stroke: rgba(112, 112, 112, 0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 485px;
+		height: 800px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_5 {
+		opacity: 1;
+		fill: rgba(46,75,91,1);
+		stroke: rgba(112, 112, 112, 0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 85px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_6 {
+		opacity: 1;
+		position: absolute;
+		width: 44.727px;
+		height: 29.5px;
+		left: 35px;
+		top: 29px;
+		overflow: visible;
+	}
+	#Rectangle_2 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 44.727px;
+		height: 7.375px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_3 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 44.727px;
+		height: 7.375px;
+		left: 0px;
+		top: 11.063px;
+	}
+	#Rectangle_4 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 44.727px;
+		height: 7.375px;
+		left: 0px;
+		top: 22.125px;
+	}
+	#Path_17 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_17 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 25px;
+		left: 140px;
+		width: 365px;
+		height: 38px;
+	}
+	#Group_7 {
+		opacity: 1;
+		position: absolute;
+		width: 38px;
+		height: 58px;
+		left: 888px;
+		top: 14px;
+		overflow: visible;
+	}
+	#baseline_shopping_cart_24px {
+		opacity: 1;
+		position: absolute;
+		width: 37.396px;
+		height: 35.171px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_2 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_2 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 1.015px;
+		left: 0.507px;
+		width: 35.367px;
+		height: 33.142px;
+	}
+	#Path_3 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_3 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 37.396px;
+		height: 35.171px;
+	}
+	#Cart {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 31px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_8 {
+		opacity: 1;
+		position: absolute;
+		width: 70px;
+		height: 58.973px;
+		left: 968px;
+		top: 14.027px;
+		overflow: visible;
+	}
+	#baseline_contact_phone_24px {
+		opacity: 1;
+		position: absolute;
+		width: 38.785px;
+		height: 38.785px;
+		left: 16px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_4 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_4 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 38.785px;
+		height: 38.785px;
+	}
+	#Path_5 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_5 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 4.848px;
+		left: 0px;
+		width: 38.785px;
+		height: 29.089px;
+	}
+	#Contact {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 31.973px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 71px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_9 {
+		opacity: 1;
+		position: absolute;
+		width: 43px;
+		height: 61px;
+		left: 1065px;
+		top: 12px;
+		overflow: visible;
+	}
+	#baseline_help_24px {
+		opacity: 1;
+		position: absolute;
+		width: 40.5px;
+		height: 40.5px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_6 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_6 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 40.5px;
+		height: 40.5px;
+	}
+	#Path_7 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_7 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 3.375px;
+		left: 3.375px;
+		width: 33.75px;
+		height: 33.75px;
+	}
+	#Help {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 34px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 44px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#baseline_search_24px {
+		opacity: 1;
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 469px;
+		top: 28px;
+		overflow: visible;
+	}
+	#Path_10 {
+		opacity: 1;
+		fill: rgba(46,75,91,1);
+	}
+	.Path_10 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 3.875px;
+		left: 3.875px;
+		width: 22.591px;
+		height: 22.591px;
+	}
+	#Path_11 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_11 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 31px;
+		height: 31px;
+	}
+	#type_for_a_place_or_address_na {
+		opacity: 1;
+		position: absolute;
+		left: 156px;
+		top: 32px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 212px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#Group_10 {
+		opacity: 1;
+		position: absolute;
+		width: 55px;
+		height: 64px;
+		left: 1150px;
+		top: 9px;
+		overflow: visible;
+	}
+	#baseline_home_24px {
+		opacity: 1;
+		position: absolute;
+		width: 45.5px;
+		height: 45.5px;
+		left: 3px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_8 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_8 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 5.688px;
+		left: 3.792px;
+		width: 37.917px;
+		height: 32.229px;
+	}
+	#Path_9 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_9 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 45.5px;
+		height: 45.5px;
+	}
+	#Home {
+		opacity: 1;
+		position: absolute;
+		left: 0px;
+		top: 37px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Hi_there___Log_in_to_search_Bo {
+		opacity: 1;
+		position: absolute;
+		left: 52px;
+		top: 208px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 383px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_31 {
+		opacity: 1;
+		position: absolute;
+		width: 375px;
+		height: 40px;
+		left: 57px;
+		top: 376px;
+		overflow: visible;
+	}
+	#Rectangle_8 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Password {
+		opacity: 1;
+		position: absolute;
+		left: 23px;
+		top: 8px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#baseline_lock_24px {
+		opacity: 1;
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		left: 346px;
+		top: 8px;
+		overflow: visible;
+	}
+	#Path_18 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_18 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 24px;
+		height: 24px;
+	}
+	#Path_19 {
+		opacity: 1;
+		fill: rgba(0,0,0,1);
+	}
+	.Path_19 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 1px;
+		left: 4px;
+		width: 16px;
+		height: 21px;
+	}
+	#Group_30 {
+		opacity: 1;
+		position: absolute;
+		width: 375px;
+		height: 40px;
+		left: 57px;
+		top: 314px;
+		overflow: visible;
+	}
+	#Rectangle_7 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Username {
+		opacity: 1;
+		position: absolute;
+		left: 23px;
+		top: 10px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(46,75,91,1);
+	}
+	#baseline_person_24px {
+		opacity: 1;
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		left: 346px;
+		top: 8px;
+		overflow: visible;
+	}
+	#Path_20 {
+		opacity: 1;
+		fill: rgba(0,0,0,1);
+	}
+	.Path_20 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 4px;
+		left: 4px;
+		width: 16px;
+		height: 16px;
+	}
+	#Path_21 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Path_21 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 24px;
+		height: 24px;
+	}
+	#Group_29 {
+		opacity: 1;
+		position: absolute;
+		width: 97px;
+		height: 40px;
+		left: 196px;
+		top: 438px;
+		overflow: visible;
+	}
+	#Rectangle_9 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Log_in {
+		opacity: 1;
+		position: absolute;
+		left: 20px;
+		top: 4px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(46,75,91,1);
+	}
+	#Don_t_have_an_account__Sign_up {
+		opacity: 1;
+		position: absolute;
+		left: 77px;
+		top: 505px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 291px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#here {
+		opacity: 1;
+		position: absolute;
+		left: 370px;
+		top: 505px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+</style>
+</head>
+<body>
+<div id="log_in">
+	<svg class="banner">
+		<pattern elementId="banner_A1_Rectangle_14" id="banner_A1_Rectangle_14_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="banner_A1_Rectangle_14_pattern.png" xlink:href="banner_A1_Rectangle_14_pattern.png"></image>
+		</pattern>
+		<rect id="banner" rx="0" ry="0" x="0" y="0" width="1280" height="271">
+		</rect>
+	</svg>
+	<div id="Recommendations">
+		<span>Recommendations</span>
+	</div>
+	<svg class="ID1">
+		<pattern elementId="ID1_A1_Rectangle_16" id="ID1_A1_Rectangle_16_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="ID1_A1_Rectangle_16_pattern.png" xlink:href="ID1_A1_Rectangle_16_pattern.png"></image>
+		</pattern>
+		<rect id="ID1" rx="0" ry="0" x="0" y="0" width="311.522" height="311.522">
+		</rect>
+	</svg>
+	<svg class="ID2">
+		<pattern elementId="ID2_A1_Rectangle_18" id="ID2_A1_Rectangle_18_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="ID2_A1_Rectangle_18_pattern.png" xlink:href="ID2_A1_Rectangle_18_pattern.png"></image>
+		</pattern>
+		<rect id="ID2" rx="0" ry="0" x="0" y="0" width="313.103" height="312.708">
+		</rect>
+	</svg>
+	<svg class="ID3">
+		<pattern elementId="ID3_A1_Rectangle_20" id="ID3_A1_Rectangle_20_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="ID3_A1_Rectangle_20_pattern.png" xlink:href="ID3_A1_Rectangle_20_pattern.png"></image>
+		</pattern>
+		<rect id="ID3" rx="0" ry="0" x="0" y="0" width="313.103" height="312.708">
+		</rect>
+	</svg>
+	<div id="KOST_MUSLIMAH_CERIA">
+		<span>KOST MUSLIMAH CERIA</span>
+	</div>
+	<div id="KOST_PUTRA_H_ABDULLAH">
+		<span>KOST PUTRA H.ABDULLAH</span>
+	</div>
+	<div id="KOST_EXECUTIVE_LIVE">
+		<span>KOST EXECUTIVE LIVE</span>
+	</div>
+	<div id="Jl__Taman_Borobudur_Indah_18__">
+		<span>Jl. Taman Borobudur Indah 18,<br/>Kota Malang<br/>Rp. 6.000.000/year</span>
+	</div>
+	<div id="Jl__Logam_No__37A_Kujangsari__">
+		<span>Jl. Logam No. 37A Kujangsari, bandung Kidul,<br/>Kota Malang<br/>Rp. 750.000/month</span>
+	</div>
+	<div id="Jl__Manyar_Jaya_Va_no__21___Ko">
+		<span>Jl. Manyar Jaya Va no. 21, <br/>Kota Malang<br/>Rp. 3.100.000/year</span>
+	</div>
+	<div id="baseline_star_24px">
+		<svg class="Path_12" viewBox="0 0 44.788 44.788">
+			<path id="Path_12" d="M 0 0 L 44.7884521484375 0 L 44.7884521484375 44.7884521484375 L 0 44.7884521484375 L 0 0 Z">
+			</path>
+		</svg>
+		<svg class="Path_13" viewBox="2 2 37.324 35.458">
+			<path id="Path_13" d="M 20.6618537902832 30.49665069580078 L 32.19488143920898 37.45752716064453 L 29.13433647155762 24.3382396697998 L 39.32371139526367 15.51118278503418 L 25.90583419799805 14.37280941009521 L 20.6618537902832 2 L 15.41787338256836 14.37280941009521 L 2 15.51118278503418 L 12.18937110900879 24.3382396697998 L 9.128828048706055 37.45752716064453 L 20.6618537902832 30.49665069580078 Z">
+			</path>
+		</svg>
+		<svg class="Path_14" viewBox="0 0 44.788 44.788">
+			<path id="Path_14" d="M 0 0 L 44.7884521484375 0 L 44.7884521484375 44.7884521484375 L 0 44.7884521484375 L 0 0 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="baseline_star_border_24px">
+		<svg class="Path_15" viewBox="2 2 37.311 35.445">
+			<path id="Path_15" d="M 39.31074142456055 15.50648784637451 L 25.89753150939941 14.34985542297363 L 20.65537071228027 2 L 15.41321182250977 14.36850929260254 L 2 15.50648784637451 L 12.18583202362061 24.33047866821289 L 9.126351356506348 37.44520568847656 L 20.65537071228027 30.48675346374512 L 32.18438720703125 37.44520568847656 L 29.14356803894043 24.33047866821289 L 39.31074142456055 15.50648784637451 Z M 20.65537071228027 26.99819755554199 L 13.64095020294189 31.23296546936035 L 15.50648784637451 23.24846649169922 L 9.312906265258789 17.87571907043457 L 17.48395919799805 17.16681480407715 L 20.65537071228027 9.648702621459961 L 23.84543991088867 17.18547058105469 L 32.01649475097656 17.89437484741211 L 25.82291030883789 23.26712226867676 L 27.68844795227051 31.25162315368652 L 20.65537071228027 26.99819755554199 Z">
+			</path>
+		</svg>
+		<svg class="Path_16" viewBox="0 0 44.773 44.773">
+			<path id="Path_16" d="M 0 0 L 44.77288818359375 0 L 44.77288818359375 44.77288818359375 L 0 44.77288818359375 L 0 0 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="baseline_star_border_24px_A1_Group_16">
+		<svg class="Path_15_A1_Path_24" viewBox="2 2 37.311 35.445">
+			<path id="Path_15_A1_Path_24" d="M 39.31074142456055 15.50648784637451 L 25.89753150939941 14.34985542297363 L 20.65537071228027 2 L 15.41321182250977 14.36850929260254 L 2 15.50648784637451 L 12.18583202362061 24.33047866821289 L 9.126351356506348 37.44520568847656 L 20.65537071228027 30.48675346374512 L 32.18438720703125 37.44520568847656 L 29.14356803894043 24.33047866821289 L 39.31074142456055 15.50648784637451 Z M 20.65537071228027 26.99819755554199 L 13.64095020294189 31.23296546936035 L 15.50648784637451 23.24846649169922 L 9.312906265258789 17.87571907043457 L 17.48395919799805 17.16681480407715 L 20.65537071228027 9.648702621459961 L 23.84543991088867 17.18547058105469 L 32.01649475097656 17.89437484741211 L 25.82291030883789 23.26712226867676 L 27.68844795227051 31.25162315368652 L 20.65537071228027 26.99819755554199 Z">
+			</path>
+		</svg>
+		<svg class="Path_16_A1_Path_25" viewBox="0 0 44.773 44.773">
+			<path id="Path_16_A1_Path_25" d="M 0 0 L 44.77288818359375 0 L 44.77288818359375 44.77288818359375 L 0 44.77288818359375 L 0 0 Z">
+			</path>
+		</svg>
+	</div>
+	<svg class="Rectangle_6">
+		<rect id="Rectangle_6" rx="0" ry="0" x="0" y="0" width="485" height="800">
+		</rect>
+	</svg>
+	<svg class="Rectangle_5">
+		<rect id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="1280" height="85">
+		</rect>
+	</svg>
+	<div id="Group_6">
+		<svg class="Rectangle_2">
+			<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="44.727" height="7.375">
+			</rect>
+		</svg>
+		<svg class="Rectangle_3">
+			<rect id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="44.727" height="7.375">
+			</rect>
+		</svg>
+		<svg class="Rectangle_4">
+			<rect id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="44.727" height="7.375">
+			</rect>
+		</svg>
+	</div>
+	<svg class="Path_17" viewBox="0 0 365 38">
+		<path id="Path_17" d="M 0 0 L 365 0 L 365 38 L 0 38 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="Group_7">
+		<div id="baseline_shopping_cart_24px">
+			<svg class="Path_2" viewBox="1 2 35.367 33.142">
+				<path id="Path_2" d="M 11.60999774932861 28.51336097717285 C 9.66483211517334 28.51336097717285 8.091015815734863 30.00473594665527 8.091015815734863 31.82753372192383 C 8.091015815734863 33.65032577514648 9.66483211517334 35.14170074462891 11.60999774932861 35.14170074462891 C 13.5551643371582 35.14170074462891 15.14666557312012 33.65032577514648 15.14666557312012 31.82753372192383 C 15.14666557312012 30.00473594665527 13.5551643371582 28.51336097717285 11.60999774932861 28.51336097717285 Z M 1 2 L 1 5.314169883728027 L 4.536665916442871 5.314169883728027 L 10.90266513824463 17.89144325256348 L 8.515416145324707 21.95130348205566 C 8.23248291015625 22.41528701782227 8.073332786560059 22.96212577819824 8.073332786560059 23.54210662841797 C 8.073332786560059 25.36489868164063 9.66483211517334 26.85627365112305 11.60999774932861 26.85627365112305 L 32.82999801635742 26.85627365112305 L 32.82999801635742 23.54210662841797 L 12.35269832611084 23.54210662841797 C 12.10513210296631 23.54210662841797 11.91061496734619 23.35982704162598 11.91061496734619 23.12783432006836 L 11.96366596221924 22.92898368835449 L 13.5551643371582 20.22793579101563 L 26.72924613952637 20.22793579101563 C 28.05549621582031 20.22793579101563 29.22259902954102 19.54853248596191 29.82382774353027 18.52113914489746 L 36.15446090698242 7.766656875610352 C 36.29592895507813 7.534665107727051 36.36666488647461 7.252960205078125 36.36666488647461 6.971256256103516 C 36.36666488647461 6.059858322143555 35.5709114074707 5.314170837402344 34.59833145141602 5.314170837402344 L 8.444682121276855 5.314170837402344 L 6.782449722290039 2.000000953674316 L 1 2.000000953674316 Z M 29.29333114624023 28.51336097717285 C 27.3481616973877 28.51336097717285 25.77434730529785 30.00473594665527 25.77434730529785 31.82753372192383 C 25.77434730529785 33.65032577514648 27.34816551208496 35.14170074462891 29.29333114624023 35.14170074462891 C 31.23849296569824 35.14170074462891 32.82999801635742 33.65032577514648 32.82999801635742 31.82753372192383 C 32.82999801635742 30.00473594665527 31.23849868774414 28.51336097717285 29.29333114624023 28.51336097717285 Z">
+				</path>
+			</svg>
+			<svg class="Path_3" viewBox="0 0 37.396 35.171">
+				<path id="Path_3" d="M 0 0 L 37.39567565917969 0 L 37.39567565917969 35.17071533203125 L 0 35.17071533203125 L 0 0 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="Cart">
+			<span>Cart</span>
+		</div>
+	</div>
+	<div id="Group_8">
+		<div id="baseline_contact_phone_24px">
+			<svg class="Path_4" viewBox="0 0 38.785 38.785">
+				<path id="Path_4" d="M 0 0 L 38.78520202636719 0 L 38.78520202636719 38.78520202636719 L 0 38.78520202636719 L 0 0 Z">
+				</path>
+			</svg>
+			<svg class="Path_5" viewBox="0 3 38.785 29.089">
+				<path id="Path_5" d="M 35.55309677124023 3 L 3.232100009918213 3 C 1.454444885253906 3 0 4.454444408416748 0 6.232099056243896 L 0 28.85680198669434 C 0 30.63445472717285 1.454444885253906 32.08890151977539 3.232100009918213 32.08890151977539 L 35.55309677124023 32.08890151977539 C 37.33075332641602 32.08890151977539 38.76903533935547 30.63445472717285 38.76903533935547 28.85680198669434 L 38.78520202636719 6.232099056243896 C 38.78520202636719 4.454444408416748 37.33075332641602 3 35.55309677124023 3 Z M 12.92840003967285 7.848150253295898 C 15.61104202270508 7.848150253295898 17.77654838562012 10.01365661621094 17.77654838562012 12.69629859924316 C 17.77654838562012 15.37894344329834 15.61104202270508 17.5444507598877 12.92840003967285 17.5444507598877 C 10.24575710296631 17.5444507598877 8.080249786376953 15.37894344329834 8.080249786376953 12.69629859924316 C 8.080249786376953 10.01365661621094 10.24575710296631 7.848150253295898 12.92840003967285 7.848150253295898 Z M 22.62469863891602 27.24075126647949 L 3.232100009918213 27.24075126647949 L 3.232100009918213 25.62470245361328 C 3.232100009918213 22.39259910583496 9.696300506591797 20.61494636535645 12.92840003967285 20.61494636535645 C 16.16049957275391 20.61494636535645 22.62469863891602 22.39259910583496 22.62469863891602 25.62470245361328 L 22.62469863891602 27.24075126647949 Z M 28.84649276733398 20.77655029296875 L 31.4968147277832 20.77655029296875 L 33.93704986572266 24.00865173339844 L 30.72111129760742 27.22458839416504 C 28.60408592224121 25.64086151123047 27.03651237487793 23.37839126586914 26.30929183959961 20.77655029296875 C 26.01840400695801 19.74227905273438 25.8568000793457 18.65952491760254 25.8568000793457 17.5444507598877 C 25.8568000793457 16.42937660217285 26.01840400695801 15.34662342071533 26.30929183959961 14.31234931945801 C 27.03651809692383 11.69434833526611 28.60408592224121 9.448039054870605 30.72111129760742 7.864309310913086 L 33.93704986572266 11.08024978637695 L 31.4968147277832 14.31234931945801 L 28.84649276733398 14.31234931945801 C 28.49096488952637 15.3304615020752 28.28087425231934 16.41321563720703 28.28087425231934 17.5444507598877 C 28.28087425231934 18.67568588256836 28.49095916748047 19.7584400177002 28.84649276733398 20.77655029296875 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="Contact">
+			<span>Contact</span>
+		</div>
+	</div>
+	<div id="Group_9">
+		<div id="baseline_help_24px">
+			<svg class="Path_6" viewBox="0 0 40.5 40.5">
+				<path id="Path_6" d="M 0 0 L 40.5 0 L 40.5 40.5 L 0 40.5 L 0 0 Z">
+				</path>
+			</svg>
+			<svg class="Path_7" viewBox="2 2 33.75 33.75">
+				<path id="Path_7" d="M 18.875 1.999999761581421 C 9.559998512268066 1.999999761581421 1.999999046325684 9.559998512268066 1.999999046325684 18.875 C 1.999999046325684 28.18999862670898 9.559998512268066 35.75 18.875 35.75 C 28.18999862670898 35.75 35.74999618530273 28.18999862670898 35.74999618530273 18.875 C 35.74999618530273 9.55999755859375 28.18999862670898 1.999999761581421 18.875 1.999999761581421 Z M 20.56249809265137 30.68749809265137 L 17.1875 30.68749809265137 L 17.1875 27.31249618530273 L 20.56249809265137 27.31249618530273 L 20.56249809265137 30.68749809265137 Z M 24.05562210083008 17.609375 L 22.53687286376953 19.16187286376953 C 21.32187080383301 20.39374732971191 20.56249809265137 21.40624809265137 20.56249809265137 23.93749809265137 L 17.1875 23.93749809265137 L 17.1875 23.09374809265137 C 17.1875 21.23749732971191 17.94687271118164 19.54999923706055 19.16187286376953 18.31812286376953 L 21.25437164306641 16.19187545776367 C 21.87874794006348 15.58437442779541 22.24999618530273 14.74062442779541 22.24999618530273 13.8125 C 22.24999618530273 11.95624923706055 20.73124885559082 10.43749809265137 18.875 10.43749809265137 C 17.01874732971191 10.43749809265137 15.49999904632568 11.95624923706055 15.49999904632568 13.8125 L 12.12499904632568 13.8125 C 12.12499904632568 10.0831241607666 15.1456241607666 7.062499046325684 18.875 7.062499046325684 C 22.60437393188477 7.062499046325684 25.62499809265137 10.0831241607666 25.62499809265137 13.8125 C 25.62499809265137 15.29749870300293 25.01749801635742 16.64749908447266 24.05562210083008 17.609375 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="Help">
+			<span>Help</span>
+		</div>
+	</div>
+	<div id="baseline_search_24px">
+		<svg class="Path_10" viewBox="3 3 22.591 22.591">
+			<path id="Path_10" d="M 19.14583206176758 17.20833206176758 L 18.12541580200195 17.20833206176758 L 17.76375007629395 16.85958290100098 C 19.02958297729492 15.38708305358887 19.79166603088379 13.47541618347168 19.79166603088379 11.39583301544189 C 19.79166603088379 6.758749485015869 16.03291702270508 3 11.39583301544189 3 C 6.758749485015869 3 3 6.758749485015869 3 11.39583301544189 C 3 16.03291702270508 6.758749485015869 19.79166603088379 11.39583301544189 19.79166603088379 C 13.47541618347168 19.79166603088379 15.38708305358887 19.02958297729492 16.85958290100098 17.76375007629395 L 17.20833206176758 18.12541580200195 L 17.20833206176758 19.14583206176758 L 23.66666603088379 25.59124946594238 L 25.59124946594238 23.66666603088379 L 19.14583206176758 17.20833206176758 Z M 11.39583301544189 17.20833206176758 C 8.179583549499512 17.20833206176758 5.583333015441895 14.61208248138428 5.583333015441895 11.39583301544189 C 5.583333015441895 8.179583549499512 8.179583549499512 5.583333015441895 11.39583301544189 5.583333015441895 C 14.61208248138428 5.583333015441895 17.20833206176758 8.179583549499512 17.20833206176758 11.39583301544189 C 17.20833206176758 14.61208248138428 14.61208248138428 17.20833206176758 11.39583301544189 17.20833206176758 Z">
+			</path>
+		</svg>
+		<svg class="Path_11" viewBox="0 0 31 31">
+			<path id="Path_11" d="M 0 0 L 31 0 L 31 31 L 0 31 L 0 0 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="type_for_a_place_or_address_na">
+		<span>type for a place or address name</span>
+	</div>
+	<div id="Group_10">
+		<div id="baseline_home_24px">
+			<svg class="Path_8" viewBox="2 3 37.917 32.229">
+				<path id="Path_8" d="M 17.16666603088379 35.22916793823242 L 17.16666603088379 23.85416984558105 L 24.75000190734863 23.85416984558105 L 24.75000190734863 35.22916793823242 L 34.22916793823242 35.22916793823242 L 34.22916793823242 20.0625 L 39.91666793823242 20.0625 L 20.95833396911621 3 L 2 20.0625 L 7.6875 20.0625 L 7.6875 35.22916793823242 L 17.16666603088379 35.22916793823242 Z">
+				</path>
+			</svg>
+			<svg class="Path_9" viewBox="0 0 45.5 45.5">
+				<path id="Path_9" d="M 0 0 L 45.5 0 L 45.5 45.5 L 0 45.5 L 0 0 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="Home">
+			<span>Home</span>
+		</div>
+	</div>
+	<div id="Hi_there___Log_in_to_search_Bo">
+		<span>Hi there !<br/>Log in to search Boarding House</span>
+	</div>
+	<div id="Group_31">
+		<svg class="Rectangle_8">
+			<rect id="Rectangle_8" rx="0" ry="0" x="0" y="0" width="375" height="40">
+			</rect>
+		</svg>
+		<div id="Password">
+			<span>Password</span>
+		</div>
+		<div id="baseline_lock_24px">
+			<svg class="Path_18" viewBox="0 0 24 24">
+				<path id="Path_18" d="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z">
+				</path>
+			</svg>
+			<svg class="Path_19" viewBox="4 1 16 21">
+				<path id="Path_19" d="M 18 8 L 17 8 L 17 6 C 17 3.240000009536743 14.76000022888184 1 12 1 C 9.239999771118164 1 7 3.240000009536743 7 6 L 7 8 L 6 8 C 4.900000095367432 8 4 8.899999618530273 4 10 L 4 20 C 4 21.10000038146973 4.900000095367432 22 6 22 L 18 22 C 19.10000038146973 22 20 21.10000038146973 20 20 L 20 10 C 20 8.899999618530273 19.10000038146973 8 18 8 Z M 12 17 C 10.89999961853027 17 10 16.10000038146973 10 15 C 10 13.89999961853027 10.89999961853027 13 12 13 C 13.10000038146973 13 14 13.89999961853027 14 15 C 14 16.10000038146973 13.10000038146973 17 12 17 Z M 15.10000038146973 8 L 8.899999618530273 8 L 8.899999618530273 6 C 8.899999618530273 4.289999961853027 10.28999996185303 2.900000095367432 12 2.900000095367432 C 13.71000003814697 2.900000095367432 15.10000038146973 4.289999961853027 15.10000038146973 6 L 15.10000038146973 8 Z">
+				</path>
+			</svg>
+		</div>
+	</div>
+	<div id="Group_30">
+		<svg class="Rectangle_7">
+			<rect id="Rectangle_7" rx="0" ry="0" x="0" y="0" width="375" height="40">
+			</rect>
+		</svg>
+		<div id="Username">
+			<span>Username</span>
+		</div>
+		<div id="baseline_person_24px">
+			<svg class="Path_20" viewBox="4 4 16 16">
+				<path id="Path_20" d="M 12 12 C 14.21000003814697 12 16 10.21000003814697 16 8 C 16 5.789999961853027 14.21000003814697 4 12 4 C 9.789999961853027 4 8 5.789999961853027 8 8 C 8 10.21000003814697 9.789999961853027 12 12 12 Z M 12 14 C 9.329999923706055 14 4 15.34000015258789 4 18 L 4 20 L 20 20 L 20 18 C 20 15.34000015258789 14.67000007629395 14 12 14 Z">
+				</path>
+			</svg>
+			<svg class="Path_21" viewBox="0 0 24 24">
+				<path id="Path_21" d="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z">
+				</path>
+			</svg>
+		</div>
+	</div>
+	<div id="Group_29"><a href="in.html">
+		<svg class="Rectangle_9">
+			<rect id="Rectangle_9" rx="13" ry="13" x="0" y="0" width="97" height="40">
+			</rect>
+		</svg>
+		<div id="Log_in">
+			<span>Log in</span>
+		</div>
+	</div>
+	<div id="Don_t_have_an_account__Sign_up">
+		<span>Don't have an account? Sign up </span>
+	</div>
+	<div id="here"><a href="register.html">
+		<span>here</span>
+	</div>
+</div>
+</body>
+</html>
